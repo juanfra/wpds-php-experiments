@@ -1,7 +1,8 @@
-# Design system components on PHP screens
+# WordPress Design System components on PHP screens
 
-Prototype for [WordPress/gutenberg#84036](https://github.com/WordPress/gutenberg/issues/84036). `gutenberg.zip` is a build of the `try/84036-ui-components-php-hydration` branch.
+Experiments for [WordPress/gutenberg#84036](https://github.com/WordPress/gutenberg/issues/84036): making `@wordpress/ui` components available on PHP admin screens.
 
-[Open in WordPress Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/juanfra/wpds-php-playground/main/blueprint.json)
+These are snapshots of exploratory work, kept here to share and try out. They're not maintained, and they may be out of date with the branches and pull requests linked from the issue, which are the place to follow the work.
 
-The link installs the build, turns on the "UI components for PHP screens" experiment and opens Tools → UI Components.
+-   `docs/`: research and notes.
+-   `hydration-prototype/`: a build of the hydration prototype, with a link to try it in WordPress Playground.

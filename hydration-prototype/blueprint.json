@@ -16,7 +16,7 @@
 			"step": "installPlugin",
 			"pluginData": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/juanfra/wpds-php-playground/main/gutenberg.zip"
+				"url": "https://raw.githubusercontent.com/juanfra/wpds-php-experiments/main/hydration-prototype/gutenberg.zip"
 			}
 		},
 		{
