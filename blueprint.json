@@ -1,0 +1,31 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Design system components on PHP screens",
+		"description": "Prototype for WordPress/gutenberg#84036: @wordpress/ui components rendered by PHP, with interactive ones hydrated by React.",
+		"author": "juanfra"
+	},
+	"landingPage": "/wp-admin/tools.php?page=gutenberg-ui-components",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"login": true,
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/juanfra/wpds-php-playground/main/gutenberg.zip"
+			}
+		},
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"gutenberg-experiments": {
+					"gutenberg-ui-php-components": true
+				}
+			}
+		}
+	]
+}
